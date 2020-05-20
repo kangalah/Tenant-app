@@ -1,0 +1,23 @@
+#home {
+  background: url("../images/image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+body {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+h1 {
+  color: black;
+  text-align: center;
+  padding-top: 10%;
+  letter-spacing: 8px;
+  font-size: 5em;
+}
+.para1 {
+  text-align: center;
+  color: #1e323b;
+  letter-spacing: 3px;
+  font-size: 2em;
+}
