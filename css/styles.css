@@ -72,3 +72,9 @@ h2{
 p{
   font-size: 1.3em;
 }
+a{
+  color: white;
+}
+.pass{
+  padding-right: 100px;
+}
