@@ -33,3 +33,13 @@ h2{
 #about{
   padding-bottom: 20px;
 }
+ footer li{
+   display: inline;
+   
+ }
+ .social-icons{
+   margin: 0px 8px 0px 8px;
+ }
+ .social-icons:hover{
+   color:aqua;
+ }
