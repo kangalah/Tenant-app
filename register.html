@@ -13,9 +13,9 @@
 <div class="container bootstrap snippet" id="register">
 
       <div class="text-center">
-        <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" class="avatar img-circle img-thumbnail" alt="avatar">
+        <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" class="avatar img-circle img-thumbnail" alt="avatar" height="500px" width="350px">
         <h6>Upload a different photo...</h6>
-        <input type="file" class="text-center center-block file-upload">
+        <input type="file" id="inputFileToLoad" class="text-center center-block file-upload ">
       </div></hr><br>
 
     	<div class="col-sm-9" id="">  
@@ -55,8 +55,8 @@
                       <div class="form-group">
                           
                           <div class="col-xs-6">
-                              <label for="house-number"><h4>House Number</h4></label>
-                              <input type="text" class="form-control" id="house-number" placeholder="House Number" title="enter house number">
+                            <label for="house-number"><h4>House.No</h4></label>
+                            <input type="number/text" class="form-control" name="house-number" id="house-number" placeholder="enter house number" title="enter your house number">
                           </div>
                       </div>
                       <div class="form-group">
@@ -76,7 +76,7 @@
                       <div class="form-group">
                            <div class="col-xs-12">
                                 <br>
-                              	<button class="btn btn-lg btn-success" type="submit"><i class="glyphicon glyphicon-ok-sign"></i> Save</button>
+                              	<button class="btn btn-lg btn-success" id="submit" type="submit"><i class="glyphicon glyphicon-ok-sign"></i> Save</button>
                                	<button class="btn btn-lg" type="reset"><i class="glyphicon glyphicon-repeat"></i> Reset</button>
                             </div>
                       </div>
@@ -92,7 +92,9 @@
     </div>
   
                                                       
-    
+    <div id="profile">
+      <h4 id="pf">Your profile is:</h4>
+    </div>
 
   </body>
 </html>
