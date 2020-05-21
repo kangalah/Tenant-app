@@ -47,22 +47,7 @@ $(document).ready(function () {
     $("#tenantPhoneNumber1").text(tenantNames[0].phone);
     $("#tenantHouseNumber1").text(tenantNames[0].houseNumber);
     $("#tenantEmail1").text(tenantNames[0].email);
-
-    $("#tenant2").text(tenantNames[1].fName+tenantNames[1].lName);
-    $("#tenantFName2").text(tenantNames[1].fName);
-    $("#tenantLName2").text(tenantNames[1].lName);
-    $("#tenantPhoneNumber2").text(tenantNames[1].phone);
-    $("#tenantHouseNumber2").text(tenantNames[1].houseNumber);
-    $("#tenantEmail2").text(tenantNames[1].email);
-
-    $("#tenant3").text(tenantNames[2].fName+tenantNames[2].lName);
-    $("#tenantFName3").text(tenantNames[2].fName);
-    $("#tenantLName3").text(tenantNames[2].lName);
-    $("#tenantPhoneNumber3").text(tenantNames[2].phone);
-    $("#tenantHouseNumber3").text(tenantNames[2].houseNumber);
-    $("#tenantEmail3").text(tenantNames[2].email);
-    
-    
+ 
   });
 });
 

@@ -51,10 +51,18 @@ h2{
   height: 90vh;
   opacity: 2;
  }
- .name, .email, .feedback, .message{
+ .name, .email, .feedback, .message, #email, #password{
    background: transparent;
  }
  .form-control::placeholder{
+  color: white;
+  opacity: 1;
+}
+#email::placeholder{
+  color: white;
+  opacity: 1;
+}
+#password::placeholder{
   color: white;
   opacity: 1;
 }
