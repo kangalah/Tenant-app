@@ -12,7 +12,7 @@ $(document).ready(function () {
   $(".file-upload").on("change", function () {
     readURL(this);
   });
-  function profile(fName,lName,phone,email,houseNumber,password){
+  function Profile(fName,lName,phone,email,houseNumber,password){
       this.fName=fName;
       this.lName=lName;
       this.phone=phone;
@@ -28,12 +28,43 @@ $(document).ready(function () {
     var lName = $("input#last_name").val();
     var phone = $("input#phone").val();
     var email = $("input#emmail").val();
-    var house = $("input#house-number").val();
+    var house = $("input#house").val();
     var pword = $("input#password").val();
     var pword2 = $("input#password2").val();
     if (pword !== pword2) {
       alert("unmatched password");
     }
+    
+    var tenantNames =[];
+    // $("#profile").append("<img src="+"image" +"width='564px'"+"height='376px'"+"alt=''>");
+    var profile = new Profile(fName,lName,phone,email,house,password);
+    tenantNames.push(profile);
+    console.log(tenantNames);
+
+    $("#tenant1").text(tenantNames[0].fName+tenantNames[0].lName);
+    $("#tenantFName1").text(tenantNames[0].fName);
+    $("#tenantLName1").text(tenantNames[0].lName);
+    $("#tenantPhoneNumber1").text(tenantNames[0].phone);
+    $("#tenantHouseNumber1").text(tenantNames[0].houseNumber);
+    $("#tenantEmail1").text(tenantNames[0].email);
+
+    $("#tenant2").text(tenantNames[1].fName+tenantNames[1].lName);
+    $("#tenantFName2").text(tenantNames[1].fName);
+    $("#tenantLName2").text(tenantNames[1].lName);
+    $("#tenantPhoneNumber2").text(tenantNames[1].phone);
+    $("#tenantHouseNumber2").text(tenantNames[1].houseNumber);
+    $("#tenantEmail2").text(tenantNames[1].email);
+
+    $("#tenant3").text(tenantNames[2].fName+tenantNames[2].lName);
+    $("#tenantFName3").text(tenantNames[2].fName);
+    $("#tenantLName3").text(tenantNames[2].lName);
+    $("#tenantPhoneNumber3").text(tenantNames[2].phone);
+    $("#tenantHouseNumber3").text(tenantNames[2].houseNumber);
+    $("#tenantEmail3").text(tenantNames[2].email);
+    
+    
   });
 });
-$("#profile").append(fName + "" + lName);
+
+
+
