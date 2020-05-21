@@ -36,7 +36,7 @@ h2{
 }
  footer li{
    display: inline;
-   
+
  }
  .social-icons{
    margin: 0px 8px 0px 8px;
@@ -77,4 +77,12 @@ a{
 }
 .pass{
   padding-right: 100px;
+}
+#register{
+  background-color: #1e323b;
+  color: white;
+}
+#registrationForm{
+  margin-left: 45%;
+  letter-spacing: 2px;
 }
