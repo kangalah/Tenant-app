@@ -1,227 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Font Awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-<link    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  rel="stylesheet"  integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"  crossorigin="anonymous" />
-<!-- Google Fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-<!-- Bootstrap core CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-<!-- Material Design Bootstrap -->
-<!-- JQuery -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<!-- Bootstrap tooltips -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-<!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<!-- MDB core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/js/mdb.min.js"></script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/css/mdb.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Material Design Bootstrap -->
+    <!-- JQuery -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    ></script>
+    <!-- Bootstrap tooltips -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
+    ></script>
+    <!-- Bootstrap core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"
+    ></script>
+    <!-- MDB core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/js/mdb.min.js"
+    ></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/css/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/script.js"></script>
     <title>Tenant App</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--Navbar -->
-<nav class="mb-1 navbar navbar sticky-top navbar-expand-lg navbar-dark bg-secondary">
-    <a class="navbar-brand" href="#home">Tenant-App</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
-      aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#home">Home
-            <span class="sr-only">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item">
+    <nav
+      class="mb-1 navbar navbar sticky-top navbar-expand-lg navbar-dark bg-secondary"
+    >
+      <a class="navbar-brand" href="#home">Tenant-App</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent-4"
+        aria-controls="navbarSupportedContent-4"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home"
+              >Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#about">About Us</a>
           </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!--/.Navbar -->
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--/.Navbar -->
 
-  <!--Homepage section-->
-  <div class="view">
-    <div class="container-fluid " id="home">
-      <div class="mask rgba-black-light align-items-center">
-        <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s">TENANT APP</h1>
-        <h3 class="para1"><strong> Tenancy made easy</strong></h3>
-        <div class="container">
-          <div class="col-md-8 offset-md-4"> 
-        <div id="login-page" class="row">
-          <div class="col s12 z-depth-6 card-panel">
-          <form class="login-form">
-          <div class="row">
-          <div class="input-field col s12 center">
-          <p class="center login-form-text">Sign-In Form</p>
+    <!--Homepage section-->
+    <div class="view">
+      <div class="container-fluid" id="home">
+        <div class="mask rgba-black-light align-items-center">
+          <h1
+            class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown"
+            data-wow-delay="0.3s"
+          >
+            TENANT APP
+          </h1>
+          <h3 class="para1"><strong> Tenancy made easy</strong></h3>
+          <div class="container">
+            <div class="col-md-8 offset-md-4">
+              <div id="login-page" class="row">
+                <div class="col s12 z-depth-6 card-panel">
+                  <form  action="profile.html" class="login-form">
+                    <div class="row">
+                      <div class="input-field col s12 center">
+                        <p class="center login-form-text">Sign-In Form</p>
+                      </div>
+                    </div>
+                    <div class="row margin">
+                      <div class="input-field col s12">
+                        <i class="mdi-social-person-outline prefix"></i>
+                        <input
+                          class="validate"
+                          id="email1"
+                          type="email"
+                          placeholder="Email..."
+                        required/>
+                        <label
+                          for="email"
+                          data-error="wrong"
+                          data-success="right"
+                          class="center-align"
+                        ></label>
+                      </div>
+                    </div>
+                    <br />
+                    <div class="row margin">
+                      <div class="input-field col s12">
+                        <i class="mdi-action-lock-outline prefix"></i>
+                        <input
+                          id="password1"
+                          type="password"
+                          placeholder="Password"
+                        required/>
+                        <label for="password"></label>
+                      </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                      <div class="input-field col s12 m12 l12 login-text">
+                        <input type="checkbox" id="remember-me" />
+                        <label for="remember-me" class="text-white"
+                          >Remember me</label
+                        >
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <button id="login" class="btn bg-info">Login</button>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s6 m6 l6">
+                        <p class="margin medium">
+                          <a href="register.html">Register Now!</a>
+                        </p>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
           </div>
-          </div>
-          <div class="row margin">
-          <div class="input-field col s12">
-          <i class="mdi-social-person-outline prefix"></i>
-          <input class="validate" id="email" type="email" placeholder="Email...">
-          <label for="email" data-error="wrong" data-success="right" class="center-align"></label>
-          </div>
-          </div><br>
-          <div class="row margin">
-          <div class="input-field col s12">
-          <i class="mdi-action-lock-outline prefix"></i>
-          <input id="password" type="password" placeholder="Password">
-          <label for="password"></label>
-          </div>
-          </div><br>
-          <div class="row">
-          <div class="input-field col s12 m12 l12 login-text">
-          <input type="checkbox" id="remember-me" />
-          <label for="remember-me"class="text-white">Remember me</label>
-          </div>
-          </div>
-          <div class="row">
-          <div class="input-field col s12">
-          <a href="profile.html"class="btn bg-info">Login</a>
-          </div>
-          </div>
-          <div class="row">
-          <div class="input-field col s6 m6 l6">
-          <p class="margin medium"><a href="register.html">Register Now!</a></p>
-          </div>
-          </div>
-        </form>
-        </div>
         </div>
       </div>
-     </div>
     </div>
-  </div>
-</div>
-   <div id="about">
-     <h2>About Us</h2>
-     <div class="card-deck">
-       <div class="card bg-secondary">
-         <div class="card-body text-center">
-           <p class="card-text">Originally created by web developers at Moringa School hoping to become one of the most popular Tenant Website Application in East Africa.</p>
-         </div>
-       </div>
-     <div class="card bg-secondary">
-       <div class="card-body text-center">
-         <p class="card-text">The Tenant App gears towards ensuring that tenants have an easier way of meeting their neighbours and harmonising community living among the tenants.</p>
-       </div>
-     </div>
-     <div class="card bg-secondary">
-       <div class="card-body text-center">
-        <p class="card-text">This app also helps in ensuring security in the rentals in the sense that when i have an idea of who my neighbours are i will be able to identify them incase of an alert or any suspicious people around the rentals.</p>
-       </div>
-     </div>
-     <div class="card bg-secondary">
-       <div class="card-body text-center">
-         <p class="card-text">We hope it will bring a sense of community living among the tenants and at the end of the day increase security in the rentals.</p>
-       </div>
+    <div id="about">
+      <h2>About Us</h2>
+      <div class="card-deck">
+        <div class="card bg-secondary">
+          <div class="card-body text-center">
+            <p class="card-text">
+              Originally created by web developers at Moringa School hoping to
+              become one of the most popular Tenant Website Application in East
+              Africa.
+            </p>
+          </div>
+        </div>
+        <div class="card bg-secondary">
+          <div class="card-body text-center">
+            <p class="card-text">
+              The Tenant App gears towards ensuring that tenants have an easier
+              way of meeting their neighbours and harmonising community living
+              among the tenants.
+            </p>
+          </div>
+        </div>
+        <div class="card bg-secondary">
+          <div class="card-body text-center">
+            <p class="card-text">
+              This app also helps in ensuring security in the rentals in the
+              sense that when i have an idea of who my neighbours are i will be
+              able to identify them incase of an alert or any suspicious people
+              around the rentals.
+            </p>
+          </div>
+        </div>
+        <div class="card bg-secondary">
+          <div class="card-body text-center">
+            <p class="card-text">
+              We hope it will bring a sense of community living among the
+              tenants and at the end of the day increase security in the
+              rentals.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <!--footer-->
-  <footer class="page-footer font-small mdb-color lighten-3 pt-4">
-    <!-- Footer Elements -->
-    <div class="container">
+    <!--footer-->
+    <footer class="page-footer font-small mdb-color lighten-3 pt-4">
+      <!-- Footer Elements -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-md-12 mb-4">
+            <div class="view overlay z-depth-1-half">
+              <img src="images/image4.jpeg" class="img-fluid" alt="" />
+              <a href="">
+                <div class="mask rgba-white-light"></div>
+              </a>
+            </div>
+          </div>
 
-      <div class="row">
+          <div class="col-lg-2 col-md-6 mb-4">
+            <div class="view overlay z-depth-1-half">
+              <img src="images/image2.jpeg" class="img-fluid" alt="" />
+              <a href="">
+                <div class="mask rgba-white-light"></div>
+              </a>
+            </div>
+          </div>
 
-        <div class="col-lg-2 col-md-12 mb-4">
+          <div class="col-lg-2 col-md-6 mb-4">
+            <div class="view overlay z-depth-1-half">
+              <img src="images/image3.jpeg" class="img-fluid" alt="" />
+              <a href="">
+                <div class="mask rgba-white-light"></div>
+              </a>
+            </div>
+          </div>
 
-          <div class="view overlay z-depth-1-half">
-            <img src="images/image4.jpeg"  class="img-fluid"
-              alt="">
-            <a href="">
-              <div class="mask rgba-white-light"></div>
-            </a>
+          <div class="col-lg-2 col-md-12 mb-4">
+            <div class="view overlay z-depth-1-half">
+              <img src="images/image4.jpeg" class="img-fluid" alt="" />
+              <a href="">
+                <div class="mask rgba-white-light"></div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 mb-4">
+            <div class="view overlay z-depth-1-half">
+              <img src="images/image3.jpeg" class="img-fluid" alt="" />
+              <a href="">
+                <div class="mask rgba-white-light"></div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 mb-4">
+            <div class="view overlay z-depth-1-half">
+              <img
+                src="images/image2.jpeg"
+                class="img-fluid"
+                width="564px"
+                height="376px"
+                alt=""
+              />
+              <a href="">
+                <div class="mask rgba-white-light"></div>
+              </a>
+            </div>
           </div>
         </div>
-
-        <div class="col-lg-2 col-md-6 mb-4">
-
-          <div class="view overlay z-depth-1-half">
-            <img src="images/image2.jpeg" class="img-fluid"
-              alt="">
-            <a href="">
-              <div class="mask rgba-white-light"></div>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-md-6 mb-4">
-
-          <div class="view overlay z-depth-1-half">
-            <img src="images/image3.jpeg" class="img-fluid"
-              alt="">
-            <a href="">
-              <div class="mask rgba-white-light"></div>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-md-12 mb-4">
-
-          <div class="view overlay z-depth-1-half">
-            <img src="images/image4.jpeg" class="img-fluid"
-              alt="">
-            <a href="">
-              <div class="mask rgba-white-light"></div>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-md-6 mb-4">
-
-          <div class="view overlay z-depth-1-half">
-            <img src="images/image3.jpeg" class="img-fluid"
-              alt="">
-            <a href="">
-              <div class="mask rgba-white-light"></div>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-md-6 mb-4">
-
-          <div class="view overlay z-depth-1-half">
-            <img src="images/image2.jpeg" class="img-fluid" width="564px" height="376px" alt="">
-            <a href="">
-              <div class="mask rgba-white-light"></div>
-            </a>
-          </div>
-        </div>
-
       </div>
+      <!-- Footer Elements -->
 
-    </div>
-    <!-- Footer Elements -->
-
-
-    <div class="footer-copyright text-center py-3">
-      <ul class="list-unstyled">
-        <li><span class="social-icons"> <i class="fa fa-twitter fa-2x"></i></span></li>
-        <li><span class="social-icons"> <i class="fa fa-quora fa-2x"></i></span></li>
-        <li><span class="social-icons"> <i class="fa fa-facebook fa-2x"></i></span></li>
-        <li><span class="social-icons"> <i class="fa fa-instagram fa-2x"></i></span></li>
-
-    </ul>
-      © 2020 Copyright:
-      <a href=""> Tenant App</a>
-    </div>
-
-  </footer>
-
-</body>
+      <div class="footer-copyright text-center py-3">
+        <ul class="list-unstyled">
+          <li>
+            <span class="social-icons">
+              <i class="fa fa-twitter fa-2x"></i
+            ></span>
+          </li>
+          <li>
+            <span class="social-icons"> <i class="fa fa-quora fa-2x"></i></span>
+          </li>
+          <li>
+            <span class="social-icons">
+              <i class="fa fa-facebook fa-2x"></i
+            ></span>
+          </li>
+          <li>
+            <span class="social-icons">
+              <i class="fa fa-instagram fa-2x"></i
+            ></span>
+          </li>
+        </ul>
+        © 2020 Copyright:
+        <a href=""> Tenant App</a>
+      </div>
+    </footer>
+  </body>
 </html>
